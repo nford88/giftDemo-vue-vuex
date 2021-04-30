@@ -1,20 +1,33 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <transition name="fade">
+      <router-view/>
+    </transition>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+// @ is an alias to /src
+import { mapActions } from 'vuex'
+import currencyConverter from './utils/helper'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+  },
+  mounted(){
+    this.fetchOffers()
+  },
+  data(){
+    return {
+    currencyConverter
+    }
+  },
+  methods: {
+    ...mapActions({ fetchOffers: 'FETCH_OFFERS'})
   }
 }
 </script>
+
 
 <style>
 #app {
@@ -23,6 +36,14 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 100px ;
+}
+
+
+.fade-enter-active{
+  transition: opacity .3s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
 }
 </style>

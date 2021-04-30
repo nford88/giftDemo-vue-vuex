@@ -1,0 +1,92 @@
+[
+  {
+     "id":1180,
+     "universe":{
+        "code":"STA",
+        "name":"Séjour"
+     },
+     "ean":3700583045227,
+     "price":"119.90",
+     "currency":"EUR",
+     "name":"Escapade délicieuse",
+     "seoTitle":"Coffret cadeau Escapade délicieuse - Smartbox",
+     "shortDescription":"Offrez une nuit avec petit-déjeuner et un dîner pour 2 personnes",
+     "description":"Vous souhaitez faire plaisir avec un coffret cadeau personnalisé, qui offre la possibilité de s’évader le temps d’un beau week-end gourmand ? Grâce à cette escapade délicieuse, un éventail d’adresses intimistes, châteaux, manoirs, hôtels et domaines de caractère ouvrent leurs portes pour un festival de détente et de saveurs. Vous serez invités à choisir le séjour qui vous tente, que ce soit dans un romantique manoir en Bretagne les pieds dans l’eau, un chaleureux chalet en Savoie, une vieille bâtisse en Normandie, une auberge alsacienne fleurie ou une demeure de charme dans le Luberon. Découvrez la sélection pointue de ce coffret et profitez d’un week-end alliant les plaisirs conjugués d’une jolie chambre et d’une table soignée !",
+     "seoDesc":"Offrez un coffret cadeau Escapade délicieuse pour 2 personnes. Une merveilleuse façon de conjuguer détente et gastronomie dans un cadre romantique.",
+     "subtitle":"À choisir parmi 700 séjours : châteaux, manoirs, domaines de caractère, hôtels 3* et 4*",
+     "gallery":{
+        "listing":"http://media.smartbox.com/pim/1000000401332886997373.jpg",
+        "items":[
+           "http://media.smartbox.com/pim/100000040133670451712.jpg",
+           "http://media.smartbox.com/pim/1000000401337870115770.jpg",
+           "http://media.smartbox.com/pim/10000004013382073832087.jpg",
+           "http://media.smartbox.com/pim/1000000401339212124657.jpg",
+           "http://media.smartbox.com/pim/10000003864731418725040.jpg",
+           "http://media.smartbox.com/pim/1000000386478812767762.jpg"
+        ]
+     },
+     "countries":[
+        
+     ],
+     "regions":[
+        
+     ],
+     "subRegions":[
+        
+     ],
+     "status":"Live",
+     "legacyCode":"T190",
+     "categories":[
+        
+     ],
+     "reviewsCount":3225,
+     "showRating":true,
+     "tags":[
+        
+     ]
+  },
+  {
+     "id":1272,
+     "universe":{
+        "code":"STA",
+        "name":"Séjour"
+     },
+     "ean":3700583059330,
+     "price":"299.90",
+     "currency":"EUR",
+     "name":"3 jours délicieux au château en Aquitaine",
+     "seoTitle":"Coffret cadeau 3 jours délicieux au château en Aquitaine - Smartbox",
+     "shortDescription":"Offrez deux nuits avec petits-déjeuners, un ou deux dîners, champagne ou cocktail pour 2 personnes",
+     "description":"Offrez le prestige d'un séjour de châtelain en Aquitaine ! Châteaux, manoirs et autres domaines prestigieux vous ouvrent leurs portes pour un week-end d'exception à deux. Au programme : deux nuits avec petits-déjeuners, un ou deux dîners et champagne ou cocktail. Entre vignobles girondins et gastronomie périgourdine ou landaise, laissez-vous tenter !\n\nDans votre coffret cadeau, vous recevrez une brochure de 24 pages présentant notre gamme de produits Smartbox variée et passionnante. Ce livret ne contient pas d’informations spécifiques sur les activités proposées dans votre coffret. Pour les découvrir en détail et choisir celle qui vous ressemble, rendez-vous sur smartbox.com.",
+     "seoDesc":"Offrez un coffret cadeau 3 jours délicieux au château en Aquitaine : un long week-end d'exception à partager à deux dans un cadre historique !",
+     "subtitle":"À choisir parmi 22 séjours en châteaux, manoirs et domaines dans toute l'Aquitaine",
+     "gallery":{
+        "listing":"http://media.smartbox.com/pim/1000000417634246615160.jpg",
+        "items":[
+           "http://media.smartbox.com/pim/10000004176371765647431.jpg",
+           "http://media.smartbox.com/pim/10000004176382025284449.jpg",
+           "http://media.smartbox.com/pim/10000004176391389207308.jpg",
+           "http://media.smartbox.com/pim/10000004176401825401584.jpg"
+        ]
+     },
+     "countries":[
+        
+     ],
+     "regions":[
+        
+     ],
+     "subRegions":[
+        
+     ],
+     "status":"Live",
+     "legacyCode":"U935",
+     "categories":[
+        
+     ],
+     "reviewsCount":114,
+     "showRating":true,
+     "tags":[
+        
+     ]
+  }
+]
