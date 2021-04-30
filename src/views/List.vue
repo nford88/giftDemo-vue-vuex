@@ -118,12 +118,11 @@ export default {
       }
       return sortAndFilteredItems.filter((item) => {
          const removeAcc = accentsHelper(item.name.toLowerCase());
-         return removeAcc.match(filtered);
+         const accentCheck = removeAcc.match(filtered);
+         const normalCheck = item.name.toLowerCase().match(filtered);
+         return (normalCheck || accentCheck)
       });
     },
-  },
-
-  methods: {
   },
 }
 </script>
