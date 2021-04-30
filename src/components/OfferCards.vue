@@ -1,13 +1,9 @@
 <template>
-  <div class="card h-100">
-      <router-link :to="{ 'path' : '/' + offer.id }">
-        <img class="card-img-top" :src="offer.gallery.listing" alt="">
-      </router-link>
+  <div class="card h-100 offer-card" :test-id="`offer-card-${offer.id}`" @click="() => viewDetail()">
+      <img class="card-img-top" :src="offer.gallery.listing" alt="">
       <div class="card-body">
         <h4 class="card-title">
-            <router-link :to="{ 'path' : '/' + offer.id }">
               {{ offer.name }}             
-            </router-link>
         </h4>
         <p class="card-text">{{ offer.universe.name }}</p>
         <p class="card-text card-desc">{{ offer.shortDescription }}</p>
@@ -40,15 +36,33 @@ export default {
       currencyConverter
     };
   },
+  methods:{
+    viewDetail() {
+      return this.$router.push({ name : 'Detail', params: { id : '1180' }})
+    }
+  }
 }
 </script>
 
 <style lang="scss" scoped>
-.card-title {
-   min-height: 60px;
-}
 
-.card-desc {
-  max-height: 120px
+$orange: #FE5816;
+
+.offer-card {
+  &:hover {
+    cursor: pointer;
+    border: 1px solid $orange {
+    }
+    h4 {
+    color: $orange
+    }
+  }
+  .card-title {
+    min-height: 60px;
+  }
+
+  .card-desc {
+    max-height: 120px
+  }
 }
 </style>
